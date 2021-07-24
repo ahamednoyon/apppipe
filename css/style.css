@@ -4,3 +4,66 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+.navbar-brand{
+    color: #86479A !important;
+}
+
+.highlight{
+    color: #F83493;
+}
+
+.navbar-nav li a{
+    color: #86479A !important;
+    margin-left: 10px;
+
+}
+
+.navbar-nav li a:hover{
+    color: #F83493 !important;
+}
+
+
+/* home section */
+
+.home{
+    background: url(../img/photos/home-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.hm-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.custom-btn{
+    background: linear-gradient(to right, #8C3F96, #ED3493);
+    color: #fff;
+    border-radius: 25px;
+    padding: 9px 25px;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.custom-btn:hover{
+    color: #fff;
+    transform: scale(1.06);
+}
+
+.home img{
+    width: 40vw;
+    animation: float 3s linear infinite;
+}
+
+@keyframes float {
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+
+    50%{
+        transform: translateY(-3.0rem);
+    }
+    
+}
