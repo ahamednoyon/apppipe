@@ -34,7 +34,7 @@ body{
 }
 
 .hm-title{
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -92,9 +92,51 @@ body{
     height: 40% !important;
 }
 
-#about{
+.about{
     background: url(../img/photos/about-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left center;
+}
+
+.newsletter{
+    background: url(../img/photos/subscribe-bg.png);
+}
+
+.newsletter-discription{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+.subs-form{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 50px;
+    background: none;
+    color:white
+}
+
+.subs-form input[type=email]{
+    background: none;
+    border: none;
+    color:#fff;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.subs-form ::-webkit-input-placeholder{
+    color: #fff;
+}
+
+:focus::-webkit-input-placeholder{
+    color:#fff;
+}
+
+.subs-form input[type=submit]{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    background: #fff;
 }
