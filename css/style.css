@@ -34,7 +34,7 @@ body{
 }
 
 .hm-title{
-    font-size: 50px;
+    font-size: 48px;
     font-weight: bold;
 }
 
@@ -90,4 +90,11 @@ body{
 
 .col-md-4 .f-box .image{
     height: 40% !important;
+}
+
+#about{
+    background: url(../img/photos/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
 }
