@@ -164,7 +164,7 @@ body{
 
 
 
-.review{
+.review, .pricing{
     background: #F9F9F9;
 }
 
@@ -181,9 +181,11 @@ body{
     color: #f8349369;
 }
 
-.user{
+/* user and price table css */
+
+.user, .price-table{
     background: #fff;
-    padding: 25px 10px;
+    padding: 25px 20px;
     border: .1rem solid rgb(0,0,0,.1);
     box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 20%);
     border-radius: 5px;
@@ -195,7 +197,28 @@ body{
 
 }
 
+.price-table:hover{
+    border: .1rem solid #F83493;
+}
+
+.active{
+    border: .1rem solid #F83493;
+}
+
 .comment p{
     font-size: 14px;
     line-height: 23px;
+}
+
+.price-table .fa-check{
+    color: green;
+    margin-right: 5px;
+}
+.price-table .fa-times{
+    color: red;
+    margin-right: 5px;
+}
+
+.price-table li{
+    color: rgba(0, 0, 0, 0.603);
 }
