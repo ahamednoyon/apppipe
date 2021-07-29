@@ -164,7 +164,7 @@ body{
 
 
 
-.review, .pricing, .contact{
+.review, .pricing, .contact, .footer-section{
     background: #F9F9F9;
 }
 
@@ -264,5 +264,53 @@ body{
 
 .contact-box form .input-box label{
     color: #666;
+
+}
+
+
+.footer{
+    background: url(../img/photos/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.ft-box p, .ft-box li, .quick-link li a{
+    font-size: 14px;
+}
+
+.ft-box h3{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    margin-bottom: 15px;
+}
+
+.quick-link li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.quick-link li a:hover{
+    text-decoration: underline;
+}
+
+.quick-link li{
+    margin-bottom: 5px;
+}
+
+.ct-box .icon{
+    background: #fff;
+    color: #ED3493;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.copyright-singnature{
+    border-top: 1px solid #fff;
+    margin-top: 20px;
 
 }
