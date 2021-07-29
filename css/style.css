@@ -164,7 +164,7 @@ body{
 
 
 
-.review, .pricing{
+.review, .pricing, .contact{
     background: #F9F9F9;
 }
 
@@ -221,4 +221,48 @@ body{
 
 .price-table li{
     color: rgba(0, 0, 0, 0.603);
+}
+
+.contact-box form{
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgb(0,0,0,.2);
+}
+
+.contact-box form .input-box{
+    position: relative;
+}
+
+.contact-box form .input-box input{
+    background: none;
+    color: #666;
+    margin: .5rem 0;
+    padding: .5rem .8rem;
+    text-transform: none;
+    border:none;
+    position: relative;
+    
+}
+
+.contact-box form .input-box::after{
+    content: "";
+    position: absolute;
+    border-bottom: .1rem solid rgba(155, 155, 155, 0.301);
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+
+
+}
+
+.contact-box form .input-box textarea{
+    resize: none;
+    margin: .5rem 0;
+    border: none;
+}
+
+.contact-box form .input-box label{
+    color: #666;
+
 }
